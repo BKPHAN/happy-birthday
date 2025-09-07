@@ -45,12 +45,12 @@ $('document').ready(function () {
         $('body').addClass('peach');
         $(this).fadeOut('slow').delay(1000).promise().done(function () {
             $('#play').fadeIn('slow');
-
+        var audio = $('.song')[0];
+        audio.play();
         });
     });
     $('#play').click(function () {
-        var audio = $('.song')[0];
-        audio.play();
+       
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
         $('#bulb_red').addClass('bulb-glow-red-after');
         $('#bulb_blue').addClass('bulb-glow-blue-after');
