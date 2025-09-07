@@ -1093,27 +1093,65 @@ audio {
 	text-shadow: 5px 5px 5px #FFF;
 	display: none;
 }
-#b1,#b11 {
+#b1, #b11 {
 	background-image: url('b1.png');
 }
-#b2,#b22 {
+#b2, #b22 {
 	background-image: url('b2.png');
 }
-#b3,#b33 {
+#b3, #b33 {
 	background-image: url('b3.png');
 }
-#b4,#b44{
+#b4, #b44 {
 	background-image: url('b4.png');
 }
-#b5,#b55{
+#b5, #b55 {
 	background-image: url('b5.png');
 }
-#b6,#b66{
+#b6, #b66 {
 	background-image: url('b6.png');
 }
-#b7,#b77{
+#b7, #b77 {
 	background-image: url('b7.png');
 }
+#b8, #b88 {
+	background-image: url('b1.png'); /* thêm cho chữ R */
+}
+#b9, #b99 {
+	background-image: url('b2.png'); /* T */
+}
+#b10, #b100 {
+	background-image: url('b3.png'); /* H */
+}
+#b11, #b111 {
+	background-image: url('b4.png'); /* D */
+}
+#b12, #b122 {
+	background-image: url('b5.png'); /* A */
+}
+#b13, #b133 {
+	background-image: url('b6.png'); /* Y */
+}
+#b14, #b144 {
+	background-image: url('b7.png'); /* T */
+}
+#b15, #b155 {
+	background-image: url('b1.png'); /* Ú */
+}
+#b16, #b166 {
+	background-image: url('b2.png'); /* khoảng trắng hoặc tim ♥ */
+}
+#b17, #b177 {
+	background-image: url('b3.png'); /* A */
+}
+#b18, #b188 {
+	background-image: url('b4.png'); /* N */
+}
+#b19, #b199 {
+	background-image: url('b5.png'); /* H */
+}
+
+
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
@@ -1268,13 +1306,13 @@ audio {
 	margin-top: 50px;
 }
 .message {
-	margin-top: 200px;
+	margin-top: -200px;
 	display: none;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
+	font-size: 25px;
+	/*text-transform: uppercase;*/
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
